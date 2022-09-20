@@ -1,0 +1,109 @@
+body {
+    font-family: 'Source Code Pro';
+    margin: 0 10%;
+}
+
+nav li {
+    display: inline;
+    font-size: 20px;
+    text-align: left;
+}
+
+#title {
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.container {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+
+}
+
+.color-panel {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    width: 24%;
+    min-height: 200px;
+    margin: 20px auto;
+}
+
+.steelblue {
+    background-color: #4682b4;
+    color: white;
+}
+
+.turquoise {
+    background-color: #40e0d0;
+    color: black;
+}
+
+.tomato {
+    background-color: #ff6347;
+    color: black;
+}
+.palevioletred {
+    background-color: #db7093;
+    color: white;
+}
+
+.font-panel {
+    width: 32%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.playfair {
+    font-family: 'Playfair Display';
+}
+
+.sourcecode {
+    font-family: 'Source Code Pro';
+}
+
+.opensans {
+    font-family: 'Open Sans';
+}
+
+.style-panel {
+    width: 34%;
+    display: inline-block;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.subheading {
+    font-family: 'Playfair Display';
+}
+
+.paragraph {
+    font-family: 'Playfair Display';
+}
